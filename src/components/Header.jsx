@@ -17,7 +17,7 @@ const Header = () => {
     navigate('/');
   };
 
-  // Untuk menutup menu saat klik di luar area menu
+  // Untuk  menu saat klik di luar area menu
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (menuRef.current && !menuRef.current.contains(event.target)) {
